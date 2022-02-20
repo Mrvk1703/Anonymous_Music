@@ -3,7 +3,7 @@ aiofiles
 asyncio
 ffmpeg-python
 pillow
-git+https://github.com/pyrogram/pyrogram@master
+pyrogram
 py-tgcalls==0.8.1rc1
 pytube
 wget
@@ -25,7 +25,7 @@ pyromod
 requests
 speedtest-cli
 uvloop
-git+https://github.com/itsunknown-12/yt-dl@master
+git+https://github.com/AnonymousBoy1025/yt-dl@master
 telegraph
 heroku3
 hachoir
