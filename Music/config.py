@@ -15,6 +15,6 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://music:music@cluster0.sh6h4.
 SUDO_USERS = list(map(int, getenv('SUDO_USERS', '1356469075').split()))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ''))
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "ANONYMOUSROBOTSUPPORT")
-ANONYMOUS_SUPPORT = getenv("ANONYMOUSROBOTSUPPORT")
+ZAID_SUPPORT = getenv("ANONYMOUSROBOTSUPPORT")
 USER_ID = int(getenv("USER_ID", ''))
 OWNER_ID = list(map(int, getenv('OWNER_ID', '').split()))
